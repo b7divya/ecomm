@@ -1,0 +1,61 @@
+.section3 {
+    height: 50vh;
+    margin-top: 1rem;
+    background-color: whitesmoke;
+}
+
+.section3-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section3-container-heading  {
+    font-size: 2rem;
+}
+
+.section3-container-desc  {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 30px;
+}
+
+.section3-container-form  {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#inp {
+    padding: 15px 120px;
+    border: none; 
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: white;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+#inp-btn {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    margin-left: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#inp-btn:hover {
+    background-color: red;
+}
+
+#inp-btn {
+    transition: background-color 0.5s ease;
+}
+
+.section3-container-policy {
+    font-size: 0.7rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55vw;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.footer-container-top {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-evenly;
+}
+
+.footer-container-bottom {
+    font-size: 0.8rem;
+}
